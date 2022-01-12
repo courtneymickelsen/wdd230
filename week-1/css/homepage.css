@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    align-items:center;
+    color: blue;
+}
+
+header {
+    background-color: #ffb9b4;
+}
+
+.court-img {
+    size: 0.5em;
+}
