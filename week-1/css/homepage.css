@@ -44,6 +44,17 @@ h1 {
     text-justify: center;
 }
 
+h2 {
+    margin-top: 70px;
+    margin-bottom: -20px;
+
+}
+
 ul{
     list-style: none;
+    font-size: 20;
+}
+
+a {
+    color: rgb(163, 138, 175);
 }
