@@ -1,60 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 img {
-    max-width: 325px;
+    max-width: 90%;
+    max-height: 500px;
+    margin: auto;
+    display: inline-block;
+    align-self: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
 }
 
 section {
     display: grid;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    max-width: 325px;
+    width: 90%;
     background-color: #ebebeb;
     border-radius: 10px;
-    align-self: center;
-    padding: 20px;
+    text-align: center;
+    margin: 5% 5% 0% 5%;
 }
 
-body {
+main {
     display: grid;
-    grid-template-columns: 1fr;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    margin: 1% 3%;
+    
 }
 
 h2 {
     font-size: 1.2em;
 }
 
+p {
+    padding: 15px;
+}
+
 /* medium view */
 @media only screen and (min-width: 32.5em) {
-    body {
-        color: blue;
+    main {
         grid-template-columns: 1fr 1fr;
     }
 
-    section {
-        max-width: 650;
-        
+    #sec3 {
+        grid-column: 1 / 3;
+        min-width: 95%;
+        margin: 5% 0% 2.5% 2.5%;
     }
-
-    /* #sec2 {
-
-        grid-column: 2;
-        grid-row: 1;
-    } */
 }
 
 /* large view */
 @media only screen and (min-width: 900px) {
-    body {
-        color: red;
+    main {
         grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    #sec2 {
-        grid-column: 2;
     }
 
     #sec3 {
         grid-column: 3;
+        margin: 5% 5% 0% 5%;
+        min-width: 90%
     }
 }
