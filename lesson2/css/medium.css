@@ -4,9 +4,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    #sec3 {
+    #sec3, header {
         grid-column: 1 / 3;
-        min-width: 95%;
+        width: 95%;
         margin: 5% 0% 2.5% 2.5%;
     }
 }

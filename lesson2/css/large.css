@@ -2,11 +2,19 @@
 @media only screen and (min-width: 900px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
+        max-width: 95%;
     }
 
     #sec3 {
         grid-column: 3;
-        margin: 5% 5% 0% 5%;
-        min-width: 90%
+    }
+
+    header {
+        width: 93%;
+        margin: 0% 5% 0% 3.5%;
+    }
+
+    section, #sec3 {
+        margin: 5% 0% 0% 2.5%;
     }
 }
