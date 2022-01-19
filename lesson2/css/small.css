@@ -46,7 +46,7 @@ p {
     padding: 15px;
 }
 
-header {
+header, footer {
     background-color: rgb(73, 46, 77);
     font-family: 'Roboto Slab', serif;
     margin: 5% 5% 0% 5%;
@@ -62,4 +62,12 @@ header h1, h2 {
 
 h1{
     padding: 0% 20px;
+}
+
+footer {
+    grid-row: 5;
+    background-color: rgb(73, 46, 77);
+    color: white;
+    border-radius: 7px;
+    height: 80px;
 }
