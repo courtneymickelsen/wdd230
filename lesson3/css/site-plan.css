@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Raleway:wght@300&display=swap');
+
+header {
+    text-align:center;
+    align-items:center;
+}
+
+nav ul {
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#logo {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+#title {
+    margin: 0px;
+    padding: 10px;
+    box-shadow: white;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Serif';
+    color:#10456a;
+    text-align:center;
+    align-items:center;
+}
+
+h1, h2, h3, nav {
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+h1 {
+    background-color: #10456a;
+    color: white;
+    padding: 5px;
+}
+
+footer {
+    background-color: #f8e8a2;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+
+nav ul li {
+    padding: 2px;
+    background-color: #72B36C;
+    text-justify: center;
+}
+
+p {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    display:inline-block;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li :hover {
+    background-color: #b5d6ee;
+}
+
+nav {
+    margin-top: 0px;
+    min-width: 100%;
+}
+
+@media only screen and (min-width: 32.5em) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+        justify-content: center;
+    }
+        /* padding: 5px; */
+        /* font-size: 1.5rem; */
+
+}
+/* green- #72B36C
+yellow- #f8e8a2
+dark blue- #10456a
+light blue- #b5d6ee */
