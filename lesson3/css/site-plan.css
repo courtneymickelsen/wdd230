@@ -5,15 +5,6 @@ header {
     align-items:center;
 }
 
-nav ul {
-    list-style: none;
-    color: black;
-    margin: 0;
-    padding: 0;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
 #logo {
     max-width: 200px;
     margin-bottom: 10px;
@@ -44,6 +35,11 @@ h1 {
     padding: 5px;
 }
 
+p {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 footer {
     background-color: #f8e8a2;
     text-align: center;
@@ -51,37 +47,42 @@ footer {
     padding: 15px 0;
 }
 
+nav {
+    margin-top: 0px;
+    min-width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 nav ul li {
-    padding: 2px;
+    display: block;
     background-color: #72B36C;
-    text-justify: center;
-}
-
-p {
-    max-width: 90%;
-    margin: 0 auto;
-}
-
-a {
-    display:inline-block;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
 }
 
 nav ul li :hover {
     background-color: #b5d6ee;
 }
 
-nav {
-    margin-top: 0px;
-    min-width: 100%;
+nav ul li a {
+    padding: 2px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    min-height: 95%;
 }
 
 @media only screen and (min-width: 32.5em) {
     nav ul {
         display: flex;
     }
+
     nav ul li {
         flex: 1 1 100%;
         justify-content: center;
