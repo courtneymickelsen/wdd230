@@ -22,6 +22,7 @@ body {
     color:#10456a;
     text-align:center;
     align-items:center;
+    display: grid;
 }
 
 h1, h2, h3, nav {
@@ -64,6 +65,7 @@ nav ul {
 nav ul li {
     display: block;
     background-color: #72B36C;
+    line-height: 1.8rem;
 }
 
 nav ul li :hover {
@@ -71,12 +73,37 @@ nav ul li :hover {
 }
 
 nav ul li a {
-    padding: 2px;
     display: block;
     text-decoration: none;
     color: white;
-    min-height: 95%;
 }
+
+#green {
+    background-color: #72B36C;
+    color: white;
+}
+
+#yellow {
+    background-color: #F8E8A2;
+} 
+
+#blue {
+    background-color: #10456A;
+    color: white;
+}
+
+#light-blue {
+    background-color: #B5D6EE;
+}
+#green, #blue, #yellow, #light-blue {
+    padding: 40px 10px;
+}
+
+#colors {
+    padding: 20;
+    min-height: 200px;
+}
+
 
 @media only screen and (min-width: 32.5em) {
     nav ul {
@@ -87,9 +114,18 @@ nav ul li a {
         flex: 1 1 100%;
         justify-content: center;
     }
-        /* padding: 5px; */
-        /* font-size: 1.5rem; */
 
+    nav ul li a {
+        min-height: 100%;
+    }
+
+    #colors {
+        display: flex;
+    }
+
+    #green, #blue, #yellow, #light-blue {
+        padding: 15% 5%;
+    }
 }
 /* green- #72B36C
 yellow- #f8e8a2
