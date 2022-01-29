@@ -13,7 +13,6 @@ header {
 #title {
     margin: 0px;
     padding: 10px;
-    box-shadow: white;
 }
 
 body {
@@ -101,7 +100,7 @@ nav ul li a {
 }
 
 #colors {
-    padding: 20;
+    padding: 20px;
     min-height: 200px;
 }
 
@@ -111,7 +110,7 @@ nav ul li a {
 .personas {
     max-width: 70%;
     max-width: 400px;
-    margin: 50 auto;
+    margin: 50px auto;
 }
 
 @media only screen and (min-width: 32.5em) {
