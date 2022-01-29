@@ -45,6 +45,7 @@ footer {
     background-color: #f8e8a2;
     text-align: center;
     margin-bottom: 0;
+    margin-top: 30px;
     padding: 15px 0;
 }
 
@@ -104,6 +105,14 @@ nav ul li a {
     min-height: 200px;
 }
 
+#audience {
+    display: grid;
+}
+.personas {
+    max-width: 70%;
+    max-width: 400px;
+    margin: 50 auto;
+}
 
 @media only screen and (min-width: 32.5em) {
     nav ul {
@@ -125,9 +134,5 @@ nav ul li a {
 
     #green, #blue, #yellow, #light-blue {
         padding: 15% 5%;
-    }
+    }    
 }
-/* green- #72B36C
-yellow- #f8e8a2
-dark blue- #10456a
-light blue- #b5d6ee */
