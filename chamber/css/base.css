@@ -75,14 +75,12 @@ section {
 
 footer {
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     background-color: #B5D6EE;
     text-align: center;
 }
 
 footer .logo {
     max-width: 20%;
-    /* grid-column: 1/4; */
     margin: 0 auto;
     padding-top: 10px;
 }
