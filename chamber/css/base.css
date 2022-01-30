@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Noto Serif';
-    max-width: 100%;
 }
 
 h1, h2, h3 {
@@ -10,18 +9,30 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 1.8em;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    background-color: #10456A;
+    color: white;
 }    
 
 .logo {
-    max-width: 150px;
-    max-height: 90%;
+    max-height: 150px;
+    max-width: 90%;
 }    
+
+nav img {
+    max-height: 60%;
+    margin: 0 auto;
+}
 
 nav {
     background-color: #F8E8A2;
+    display: grid;
 }
 
 nav ul {
@@ -37,16 +48,28 @@ main {
 }
 
 section {
-    border: 1px filsolidled #10456A;
+    border: 0.5px solid #10456A;
+    margin: 5px;
 }
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     background-color: #B5D6EE;
     text-align: center;
 }
 
+footer .logo {
+    max-width: 20%;
+    /* grid-column: 1/4; */
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+footer h2 {
+    grid-row: 2;
+    
+}
 /* blue #10456A
    yellow #F8E8A2
    green #72B36C
