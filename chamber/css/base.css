@@ -9,9 +9,19 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-h1 {
-    font-size: 1.5em;
+.logo {
+    padding: 10px;
     margin: auto;
+    max-height: 100px;
+    max-width: 90%;
+}
+
+/* header */
+
+h1 {
+    font-size: 5.5vw;
+    margin: auto;
+    padding: 10px;
 }
 
 header {
@@ -19,23 +29,17 @@ header {
     grid-template-columns: 1fr 3fr 1fr;
     background-color: #10456A;
     color: white;
-}
-
-header img {
-    max-height: 150px;
-    max-width: 90%;
-    min-width: 30px;
-    padding: 5px;
-    margin: auto;
+    text-align: center;
 }
 
 nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    text-justify: center;
 }
 
-.menu {
-    display: none;
+.social {
+    max-width: 30px;
+    margin: 100% 5px;
 }
 
 nav ul {
@@ -50,9 +54,8 @@ nav ul li a {
     color: white;
 }
 
-nav button {
-    background-color: white;
-    color: #10456A;
+nav ul li {
+    color: white;
     border-color: #10456A;
     width: 30px;
     height: 30px;
@@ -61,17 +64,28 @@ nav button {
 
 #today {
     grid-column: 1/4;
-    margin: 10px auto;
+    margin: auto;
+    font-size: 1.2em;
+    border-top: 1px solid white;
+    padding: 10px;
 }
 
-main {
+nav ul li {
+    display: none;
+}
+
+.responsive {
     display: grid;
 }
 
-section {
-    border: 0.5px solid #10456A;
-    margin: 5px;
+.responsive li {
+    display: block;
 }
+.menu li:first-child {
+	display: block;
+}
+
+/* footer */
 
 footer {
     display: grid;
@@ -80,6 +94,7 @@ footer {
 }
 
 footer .logo {
+    max-height: 100px;
     max-width: 20%;
     margin: 0 auto;
     padding-top: 10px;
@@ -87,9 +102,23 @@ footer .logo {
 
 footer h2 {
     grid-row: 2;
-    
 }
-/* blue #10456A
-   yellow #F8E8A2
-   green #72B36C
-   light-blue #B5D6EE */
+
+/* main */
+
+main {
+    display: grid;
+}
+
+/* home page */
+
+section {
+    border: 0.5px solid #10456A;
+    margin: 5px;
+}
+
+/* 
+blue #10456A
+yellow #F8E8A2
+green #72B36C
+light-blue #B5D6EE */
