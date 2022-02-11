@@ -1,22 +1,32 @@
 @media only screen and (min-width: 900px) {
     header {
-        grid-template-columns: 1fr 2fr 4fr;
+        grid-template-columns: 1fr 2fr 3fr 1fr;
     }
     
     nav {
         display: grid;
+        grid-template-rows: 1;
+        grid-row: 1;
+        grid-column: 3/5
     }
-    
+
+    .nav-button {
+        display: none;
+    }
+
     nav ul {
-        display: grid;
+        display: flex;
         grid-template-columns: 20% 20% 20% 20% 20% 20%;
         margin: 0;
     }
 
+    .social {
+        margin: auto;
+        grid-column: 3;
+    }
+
     .menu li {
         display: block;
-        /* margin: 0 auto; */
-        /* padding-left: 20px; */
     }
 
     .menu li a {
@@ -36,11 +46,12 @@
         grid-row: 1;
         grid-column: 2;
     }
+    
     footer section {
         grid-column: 1/4;
     }
 
     h1 {
-        font-size: 3.3vw;
+        font-size: 2.5vw;
     }
 }
