@@ -10,10 +10,10 @@ h1, h2, h3 {
 }
 
 .logo {
-    padding: 10px;
+    padding: 15px;
     margin: auto;
-    max-height: 100px;
-    max-width: 90%;
+    max-height: 90px;
+    max-width: 80%;
 }
 
 /* header */
@@ -34,12 +34,33 @@ header {
 
 nav {
     display: flex;
-    text-justify: center;
 }
 
 .social {
+    /* margin: auto 5px; */
+    display: flex;
+}
+
+.social img {
     max-width: 30px;
-    margin: 100% 5px;
+    margin: auto 0.5em;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-button {
+    color: #10456A;
+    margin: auto 0.5em;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
 }
 
 nav ul {
@@ -51,15 +72,34 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    text-align: center;
 }
 
 nav ul li {
     color: white;
-    border-color: #10456A;
-    width: 30px;
-    height: 30px;
+    display: none;
+    /* border-color: #10456A; */
     margin: auto;
+}
+
+.responsive {
+    display: grid;
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    margin: auto;
+    width: 25%;
+    max-width: 200px;
+    height: 50%;
+    padding: 10px;
+    background-color: #F8E8A2;
+}
+
+.responsive li {
+    display: block;
+}
+.responsive li a {
+    color: #10456A;
 }
 
 #today {
@@ -68,24 +108,6 @@ nav ul li {
     font-size: 1.2em;
     border-top: 1px solid white;
     padding: 10px;
-}
-
-nav ul li {
-    display: none;
-}
-
-.responsive {
-    display: grid;
-}
-
-.responsive li {
-    display: block;
-}
-
-.nav-button button {
-	display: block;
-    color: #10456A;
-    margin: auto;
 }
 
 /* footer */
@@ -118,6 +140,12 @@ main {
 section {
     border: 0.5px solid #10456A;
     margin: 5px;
+    min-height: 150px;
+    min-width: 50%;
+}
+
+.a-info {
+    min-height: auto;
 }
 
 /* 

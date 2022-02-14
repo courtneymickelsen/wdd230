@@ -1,3 +1,4 @@
 function toggleMenu() {
-    menu = document.getElementsByClassName('#menu')[0].classList.toggle('#responsive');
+    menu = document.querySelector('.menu')
+    menu.classList.toggle('responsive');
 }
