@@ -8,6 +8,7 @@ h1 {
     border: 3px solid darkgreen;
     border-radius: 7px;
     padding: 2%;
+    box-shadow: 0 0 5px #555;
 }
 
 .cards {
@@ -24,8 +25,11 @@ section {
     padding: 2%;
     margin: 2%;
     align-items: center;
+    box-shadow: 0 0 5px #555;
 }
 
 section img {
     max-width: 75%;
+    box-shadow: 0 0 5px #555;
+    margin-bottom: 10px;
 }
