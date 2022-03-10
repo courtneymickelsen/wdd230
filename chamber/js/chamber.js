@@ -1,4 +1,4 @@
 function toggleMenu() {
-    menu = document.querySelector('.menu')
+    const menu = document.querySelector('.menu')
     menu.classList.toggle('responsive');
 }

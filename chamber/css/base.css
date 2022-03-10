@@ -179,6 +179,23 @@ main section h2 {
     font-size: 1.2em;
 }
 
+/* .overlay {
+    display: inline;
+    height: 100%;
+    width: 100%;
+    margin: none;
+    padding: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 1;
+}
+
+.overlay-p {
+    font-size: 50px;
+    margin-top: 30vw;
+    color: white;
+} */
+
 .herodiv {
     display: grid;
     position: absolute;

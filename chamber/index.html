@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script src="js/chamber.js"></script>
+        <script defer src="js/windchill.js"></script>
         <script defer src="js/time.js"></script>
     </head>
     <body>
@@ -22,7 +23,7 @@
             <section class="meet-banner">
                 <p>Come join us for the chamber meet and greet on Wednesday at 7:00 p.m.</p>
             </section>
-            <img class='logo' src='images/hills-logo.png' alt='hills logo'>
+            <img class='logo' src='images/hills-logo.webp' alt='hills logo'>
             <h1>Eastern Hills Chamber of Commerce</h1>
             <nav>
                 <div class="social">
@@ -43,12 +44,19 @@
         </header>
         <main>
             <section class="hero">
+                <!-- <span class="overlay"><p class="overlay-p" ></p></span> -->
                 <div class="herodiv">
                     <p>Discover what joining the chamber can do for you and your business!</p>
                     <button>Learn the Benefits</button>
                     <button>Become a Member</button>
                 </div>
-                <img class="hero-img" alt="Blue sky and buildings on a hill" src="images/hero-img.png">
+                <picture>
+                    <source media="(max-width: 599px)" srcset="images/small-img.jpg">
+                    <source media="(max-width: 899px)" srcset="images/med-img.jpg">
+                    <source media="(min-width: 900px)" srcset="images/large-img.jpg">
+                    <img class="hero-img" alt="Blue sky and buildings on a hill" src="images/large-img.png">
+                </picture>
+                
             </section>
             <div class="event-weather">
             <section class="event">
@@ -59,7 +67,10 @@
             <section class="weather">
                 <h2>Today's Weather Forecast</h2>
                 <img alt="clouds and sun icon" src="images/cloudy.png">
-                <p>High: 81&#176; - Low: 32&#176;</p>
+                <!-- <p>High: 81&#176; - Low: 32&#176;</p> -->
+                <p> Current Tempurature: <span class="current-temp">32</span>&#176;</p>
+                <p> Current Windspeed: <span class="wind-speed">10</span>mph</p>
+                <p> Wind Chill: <span class="wind-chill"></span></p>
                 <p>Partly Cloudy - 13% Chance of Rain</p>
             </section>
             </div>
@@ -90,7 +101,7 @@
             </div>
         </main>
         <footer>
-            <img class='logo' src='images/hills-logo.png' alt='hills logo'>
+            <img class='logo' src='images/hills-logo.webp' alt='hills logo'>
              <div>
                  <h2>Eastern Hills Chamber of Commerce</h2>
                  <p>123 N 45th Street, Idaho Falls</p>
