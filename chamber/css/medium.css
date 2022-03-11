@@ -5,6 +5,25 @@
         width: 100%;
     }
 
+    .discover-main {
+        grid-template-columns: 1fr;
+    }
+
+    .discover-main section {
+        max-width: 800px;
+        margin: 1% auto;
+    }
+    
+    .disc-section img {
+        transition: .3s ease-in-out;
+        overflow: hidden;
+    }
+
+    .disc-section :hover img {
+        cursor: pointer;
+        transform: scale(0.95);
+    }
+
     h1 {
         font-size: 3.5vw;
     }

@@ -21,6 +21,15 @@ p {
     max-width: 80%;
 }
 
+img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+img[data-src] {
+    filter: blur(0.1em);
+}
+
 /* header */
 
 .meet-banner {
@@ -67,6 +76,10 @@ nav a {
 }
 nav ul li :hover {
     font-size: 22px;
+}
+
+nav :hover {
+    cursor: pointer;
 }
 
 .nav-button {
@@ -224,13 +237,13 @@ main section h2 {
     max-width: 80%; 
 }
 
-.discover-h2 {
+.discover-heading {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.img-section img {
+.disc-section img {
     max-width: 100%;
 }
 
