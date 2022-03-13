@@ -15,8 +15,9 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script src="js/chamber.js"></script>
-        <script defer src="js/windchill.js"></script>
+        <script src="js/weather.js"></script>
         <script defer src="js/time.js"></script>
+        <!-- <script defer src="js/windchill.js"></script> -->
     </head>
     <body>
         <header>
@@ -65,12 +66,12 @@
             </section>
             <section class="weather">
                 <h2>Today's Weather Forecast</h2>
-                <img alt="clouds and sun icon" src="images/cloudy.png">
-                <!-- <p>High: 81&#176; - Low: 32&#176;</p> -->
-                <p> Current Tempurature: <span class="current-temp">32</span>&#176;</p>
-                <p> Current Windspeed: <span class="wind-speed">10</span>mph</p>
-                <p> Wind Chill: <span class="wind-chill"></span></p>
-                <p>Partly Cloudy - 13% Chance of Rain</p>
+                <!-- <img alt="clouds and sun icon" src="images/cloudy.png"> -->
+                <img class="weather-icon" src="" alt=""></span>
+                <p>Current Tempurature: <span class="current-temp"></span>&#176;</p>
+                <p>Condition: <span class="current-condition"></span></p>
+                <p>Wind Speed: <span class="wind-speed"></span> MPH</p>
+                <p>Wind Chill: <span class="wind-chill"></span></p>
             </section>
             </div>
             <section class="join">
@@ -115,5 +116,6 @@
                 <p id="lastMod"></p>
             </section>
         </footer>
+        <script defer src="js/windchill.js"></script>
     </body>
 </html>
