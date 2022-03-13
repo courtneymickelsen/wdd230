@@ -2,9 +2,11 @@
 
 html {
     font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
 }
 
 table {
+    margin: 100px auto;
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
@@ -16,20 +18,25 @@ td, th {
     padding: 10px 20px;
 }
 
+thead {
+    font-size: x-large;
+}
+
 th {
     background-color: #c991c6;
+    font-size: large;
 }
-  
+
 td {
     text-align: center;
 }
   
 tr:nth-child(even) td {
-    background-color: #e6b9e6;
+    background-color: #f3d7f3;
 }
 
 tr:nth-child(odd) td {
-    background-color: #f3d7f3;
+    background-color: #e6b9e6;
 }
   
 caption {
