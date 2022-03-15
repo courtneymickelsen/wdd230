@@ -50,4 +50,20 @@
     footer .logo {
         max-width: 80%;
     }
+    
+    .join-main div {
+        grid-template-columns: 1fr;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    .join-main form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+    }
+
+    .membership-desc {
+        display: block;
+    }
+
 }

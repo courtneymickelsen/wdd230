@@ -4,7 +4,7 @@ let windChill = document.querySelector('.wind-chill');
 let tempValue = currentTemp.textContent;
 let windSpeedValue = windSpeed.textContent; 
 
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5596475&units=imperial&appid=6c49c8e9bde6de88267a321d69a9f850";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5596475&units=imperial&appid=6c49c8e9bde6de88267a321d69a9f850";
 
 fetch(apiURL)
 .then((response) => response.json())
