@@ -19,3 +19,6 @@ else if (weekday == 2) {
 function showBanner() {
     banner.style.display = "block";
 }
+
+dateInput = document.querySelector('#date-input');
+dateInput.value = today;
