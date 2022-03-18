@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Courtney Mickelsen's week 4 assignment for WDD 230 at BYU-Idaho."
+        />
+        <title>Eastern Hills Chamber of Commerce</title>
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="stylesheet" href="/css/normalize.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script src="js/chamber.js"></script>
+        <script defer src="js/time.js"></script>
+        <script defer src="js/directory.js"></script>
+    </head>
+    <body>
+        <header>
+            <section class="meet-banner">
+                <p>Come join us for the chamber meet and greet on Wednesday at 7:00 p.m.</p>
+            </section>
+            <a href="index.html"><img class='logo' src='images/hills-logo.webp' alt='hills logo'></a>
+            <h1>Eastern Hills Chamber of Commerce</h1>
+            <nav>
+                <div class="social">
+                    <a href='https://www.linkedin.com/'><img src='images/linkedin1.png' alt='linkedin logo icon'></a>
+                    <a href='https://www.facebook.com/'><img src='images/facebook1.png' alt='facebook logo icon'></a>
+                </div>
+                <button class="nav-button" onclick="toggleMenu()">&#9776;</button>
+                <ul class='menu'>
+                    <li onclick="toggleMenu()" id="close-menu"><a href='#'>&#10005;</a></li>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='discover.html'>Discover</a></li>
+                    <li><a href='join.html'>Join</a></li>
+                    <li><a href='directory.html'>Directory</a></li>
+                    <li><a href='contact.html'>Contact</a></li>
+                </ul>
+            </nav>
+            <h2 id='today'>Today's date</h2>
+        </header>
+        <main>
+            <div class="">
+                <section>
+                    <img alt="" src="" data-src="">
+                    <h4 class="business-name"></h4>
+                    <p class="address"></p>
+                    <p class="phone-number"></p>
+                    <p class="website"></p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <img class='logo' src='images/hills-logo.webp' alt='hills logo'>
+             <div>
+                 <h2>Eastern Hills Chamber of Commerce</h2>
+                 <p>123 N 45th Street, Idaho Falls</p>
+            </div>
+            <div>
+                <p>easthillscommerce@gmail.com</p>
+                <p>(111)999-8888</p>
+                <p>link to map</p>
+            </div>
+            <section class="a-info">
+                <p>&copy; <span id="currentYear"></span> •|• Courtney A. Mickelsen •|• Idaho</p>
+                <p id="lastMod"></p>
+            </section>
+        </footer>
+    </body>
+</html>
