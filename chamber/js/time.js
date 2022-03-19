@@ -14,11 +14,8 @@ if (weekday == 1) {
 }
 else if (weekday == 2) {
     showBanner();
-}
+};
 
 function showBanner() {
     banner.style.display = "block";
-}
-
-dateInput = document.querySelector('#date-input');
-dateInput.value = today;
+};
