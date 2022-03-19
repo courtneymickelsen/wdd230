@@ -1,0 +1,88 @@
+{
+    "companies": {
+        "company1": {
+            "name": "Bryan's Bike Shop",
+            "address": "1728 E 15th St, Idaho Falls ID",
+            "phone-number": "890-789-7890",
+            "website": "bryansbikeshop.com",
+            "icon-file": "images/bike"
+        },
+        "company2": {
+            "name": "Cakes By Kyla",
+            "address": "157 N Elva St, Idaho Falls ID",
+            "phone-number": "765-432-1987",
+            "website": "kylascustomcakes.com",
+            "icon-file": "images/cake"
+        },
+        "company3": {
+            "name": "Cliff's Climbing Gym",
+            "address": "1445 W 45th St, Idaho Falls ID",
+            "phone-number": "999-888-7777",
+            "website": "cliffsclimbing.com",
+            "icon-file": "images/climbing"
+        },
+        "company4": {
+            "name": "Sanchez' Street Tacos",
+            "address": "7890 Marsh Dr, Idaho Falls ID",
+            "phone-number": "342-451-2677",
+            "website": "sancheztacos.wordpress.com",
+            "icon-file": "images/tacos"
+        },
+        "company5": {
+            "name": "Lanes 300",
+            "address": "4783 E 10th St, Idaho Falls ID",
+            "phone-number": "235-732-5523",
+            "website": "lanes300bowling.wix.com",
+            "icon-file": "images/bowling"
+        },
+        "company6": {
+            "name": "La Belle Beauty Salon",
+            "address": "678 Sentinel Lane, Idaho Falls ID",
+            "phone-number": "124-623-5135",
+            "website": "instagram.com/labellebeautysalon",
+            "icon-file": "images/salon"
+        },
+        "company7": {
+            "name": "North Pole Snow Shack",
+            "address": "955 E 15th Street, Idaho Falls ID",
+            "phone-number": "444-333-5566",
+            "website": "northpolesnowshack.com",
+            "icon-file": "images/snow-cone"
+        },
+        "company8": {
+            "name": "Blue Lagoon",
+            "address": "7810 W 45th St, Idaho Falls ID",
+            "phone-number": "626-262-1261",
+            "website": "bluelagoonswimming.net",
+            "icon-file": "images/pool"
+        },
+        "company9": {
+            "name": "Eastern Hills Veterinary",
+            "address": "2735 E 10th St, Idaho Falls ID",
+            "phone-number": "982-822-2892",
+            "website": "easternhillsveterinary.com",
+            "icon-file": "images/vet"
+        },
+        "company10": {
+            "name": "Hall Dentistry",
+            "address": "910 E 15th St, Idaho Falls ID",
+            "phone-number": "101-202-3030",
+            "website": "hallfamilydentistry.com",
+            "icon-file": "images/dentist"
+        },
+        "company11": {
+            "name": "Brooks Federal Credit Union",
+            "address": "8239 W Bennet St, Idaho Falls ID",
+            "phone-number": "237-773-3723",
+            "website": "brooksfcu.org",
+            "icon-file": "images/bank"
+        },
+        "company12": {
+            "name": "Eastern Hills Community Hospital",
+            "address": "1090 S Boulevard Ave, Idaho Falls ID",
+            "phone-number": "901-910-1091",
+            "website": "ehch.com",
+            "icon-file": "images/hospital"
+        }
+    }
+}
