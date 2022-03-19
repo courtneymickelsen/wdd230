@@ -2,9 +2,9 @@ const requestURL = "https://courtneymickelsen.github.io/wdd230/chamber/json/data
 const directory = document.querySelector('.directory');
 
 fetch(requestURL)
-// .then(function (response) {
-//     return response.json();
-// })
+.then(function (response) {
+    return response.json();
+})
 .then(function (jsonObject) {
     console.table(jsonObject);
     const companies = jsonObject['companies'];
