@@ -47,6 +47,7 @@
         margin: 0;
         grid-row: 1;
         grid-column: 1;
+        font-size: larger;
     }
 
     #close-menu {
@@ -83,5 +84,13 @@
 
     .join-main h2 {
         grid-column: 1/4;
+    }
+
+    .view {
+        grid-column: 1/4;
+    }
+
+    .card {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

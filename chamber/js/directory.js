@@ -13,20 +13,37 @@ fetch(requestURL)
 
 function displayCompanies(company) {
     let section = document.createElement('section');
-    let logo = document.createElement('img');
-    let compName = document.createElement('h4');
-    let phone = document.createElement('p');
-    let address = document.createElement('p');
-    let website = document.createElement('p');
+    let vLogo = document.createElement('img');
+    let vName = document.createElement('h4');
+    let vPhone = document.createElement('p');
+    let vAddress = document.createElement('p');
+    let vWebPar = document.createElement('p');
+    let vWebsite = document.createElement('a');
     // let iconFile = section.createChildElement('p');
     
-    logo.setAttribute('src', company.iconFile);
-    compName.textContent = `${company.name}`;
+    vLogo.setAttribute('src', company.iconFile);
+    vName.textContent = `${company.name}`;
+    vPhone.textContent = `${company.phoneNumber}`;
+    vAddress.textContent = `${company.address}`;
+    vWebsite.setAttribute('href', `${company.website}`)
+    vWebPar.textContent = `${company.website}`;
+
     
     directory.appendChild(section);
-    section.appendChild(logo);
-    section.appendChild(compName);
-    section.appendChild(phone);
-    section.appendChild(address);
-    section.appendChild(website);
+    section.appendChild(vLogo);
+    section.appendChild(vName);
+    section.appendChild(vPhone);
+    section.appendChild(vAddress);
+    section.appendChild(vWebsite);
+    vWebsite.appendChild(vWebPar);
+}
+
+function listView() {
+    const directory = document.querySelector('.directory');
+    directory.classList.replace('card', 'list');
+}
+
+function cardView() {
+    const directory = document.querySelector('.directory');
+    directory.classList.replace('list', 'card');
 }

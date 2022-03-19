@@ -8,13 +8,6 @@
             "iconFile": "images/bike"
         },
         {
-            "name": "Cakes By Kyla",
-            "address": "157 N Elva St, Idaho Falls ID",
-            "phoneNumber": "765-432-1987",
-            "website": "kylascustomcakes.com",
-            "iconFile": "images/cake"
-        },
-        {
             "name": "Cliff's Climbing Gym",
             "address": "1445 W 45th St, Idaho Falls ID",
             "phoneNumber": "999-888-7777",
@@ -83,6 +76,13 @@
             "phoneNumber": "901-910-1091",
             "website": "ehch.com",
             "iconFile": "images/hospital"
+        },
+        {
+            "name": "Cakes By Kyla",
+            "address": "157 N Elva St, Idaho Falls ID",
+            "phoneNumber": "765-432-1987",
+            "website": "kylascustomcakes.com",
+            "iconFile": "images/cake"
         }
     ]
 }

@@ -5,7 +5,7 @@ body {
     color: #10456A;
 }
 
-h1, h2, h3 {
+h1, h2, h3,  h4 {
     font-family: 'Noto Serif';
     font-weight: bold;
     text-align: center;
@@ -87,8 +87,8 @@ nav :hover {
 .nav-button {
     color: #10456A;
     margin: auto 0.5em;
-    height: 30px;
-    width: 30px;
+    height: 28px;
+    width: 28px;
     background-color: white;
     border: none;
     border-radius: 50%;
@@ -314,6 +314,60 @@ form label input::placeholder {
 }
 
 .membership-desc {
+    display: none;
+}
+
+.directory {
+    padding-bottom: 20px;
+}
+
+.view {
+    display: flex;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.button-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+}
+
+.button-div :hover {
+    cursor: pointer;
+    background-color: #F8E8A2;
+}
+
+.card {
+    display: grid;
+}
+
+.card section {
+    margin: 10px;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+
+.list section {
+    display: flex;
+    padding-left: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section a {
     display: none;
 }
 
