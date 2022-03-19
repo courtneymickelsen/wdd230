@@ -8,7 +8,7 @@ fetch(requestURL)
 .then(function (jsonObject) {
     console.table(jsonObject);
     const companies = jsonObject['companies'];
-    companies.foreach(displayCompanies);
+    companies.forEach(displayCompanies);
 });
 
 function displayCompanies(company) {
@@ -20,7 +20,7 @@ function displayCompanies(company) {
     let website = document.createElement('p');
     // let iconFile = section.createChildElement('p');
     
-    logo.setAttribute('src', company.icon-file);
+    logo.setAttribute('src', company.iconFile);
     compName.textContent = `${company.name}`;
     
     directory.appendChild(section);
