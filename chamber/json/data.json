@@ -5,84 +5,84 @@
             "address": "1728 E 15th St, Idaho Falls ID",
             "phoneNumber": "890-789-7890",
             "website": "bryansbikeshop.com",
-            "iconFile": "images/bike"
+            "iconFile": "images/bike.png"
         },
         {
             "name": "Cliff's Climbing Gym",
             "address": "1445 W 45th St, Idaho Falls ID",
             "phoneNumber": "999-888-7777",
             "website": "cliffsclimbing.com",
-            "iconFile": "images/climbing"
+            "iconFile": "images/climbing.png"
         },
         {
             "name": "Sanchez' Street Tacos",
             "address": "7890 Marsh Dr, Idaho Falls ID",
             "phoneNumber": "342-451-2677",
             "website": "sancheztacos.com",
-            "iconFile": "images/tacos"
+            "iconFile": "images/tacos.png"
         },
         {
             "name": "Lanes 300",
             "address": "4783 E 10th St, Idaho Falls ID",
             "phoneNumber": "235-732-5523",
             "website": "lanes300bowling.com",
-            "iconFile": "images/bowling"
+            "iconFile": "images/bowling.png"
         },
         {
             "name": "La Belle Beauty Salon",
             "address": "678 Sentinel Lane, Idaho Falls ID",
             "phoneNumber": "124-623-5135",
             "website": "labellebeautysalon.com",
-            "iconFile": "images/salon"
+            "iconFile": "images/salon.png"
         },
         {
             "name": "North Pole Snow Shack",
             "address": "955 E 15th Street, Idaho Falls ID",
             "phoneNumber": "444-333-5566",
             "website": "northpolesnowshack.com",
-            "iconFile": "images/snow-cone"
+            "iconFile": "images/snow-cone.png"
         },
         {
             "name": "Blue Lagoon",
             "address": "7810 W 45th St, Idaho Falls ID",
             "phoneNumber": "626-262-1261",
             "website": "bluelagoonswimming.net",
-            "iconFile": "images/pool"
+            "iconFile": "images/pool.png"
         },
         {
             "name": "Eastern Hills Veterinary",
             "address": "2735 E 10th St, Idaho Falls ID",
             "phoneNumber": "982-822-2892",
             "website": "easternhillsveterinary.com",
-            "iconFile": "images/vet"
+            "iconFile": "images/vet.png"
         },
         {
             "name": "Hall Dentistry",
             "address": "910 E 15th St, Idaho Falls ID",
             "phoneNumber": "101-202-3030",
             "website": "hallfamilydentistry.com",
-            "iconFile": "images/dentist"
+            "iconFile": "images/dentist.png"
         },
         {
             "name": "Brooks Federal Credit Union",
             "address": "8239 W Bennet St, Idaho Falls ID",
             "phoneNumber": "237-773-3723",
             "website": "brooksfcu.org",
-            "iconFile": "images/bank"
+            "iconFile": "images/bank.png"
         },
         {
             "name": "Eastern Hills Community Hospital",
             "address": "1090 S Boulevard Ave, Idaho Falls ID",
             "phoneNumber": "901-910-1091",
             "website": "ehch.com",
-            "iconFile": "images/hospital"
+            "iconFile": "images/hospital.png"
         },
         {
             "name": "Cakes By Kyla",
             "address": "157 N Elva St, Idaho Falls ID",
             "phoneNumber": "765-432-1987",
             "website": "kylascustomcakes.com",
-            "iconFile": "images/cake"
+            "iconFile": "images/cake.png"
         }
     ]
 }
