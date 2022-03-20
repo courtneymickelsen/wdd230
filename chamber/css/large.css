@@ -42,8 +42,7 @@
     }
 
     nav ul {
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20% 20% 20%;
+        display: flex;
         margin: 0;
         grid-row: 1;
         grid-column: 1;
@@ -58,6 +57,7 @@
         margin: auto;
         grid-column: 2;
     }
+
     .menu li a {
     color: white;
     }
