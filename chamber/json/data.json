@@ -15,34 +15,6 @@
             "iconFile": "images/climbing.png"
         },
         {
-            "name": "Sanchez' Street Tacos",
-            "address": "7890 Marsh Dr, Idaho Falls ID",
-            "phoneNumber": "342-451-2677",
-            "website": "sancheztacos.com",
-            "iconFile": "images/tacos.png"
-        },
-        {
-            "name": "Lanes 300",
-            "address": "4783 E 10th St, Idaho Falls ID",
-            "phoneNumber": "235-732-5523",
-            "website": "lanes300bowling.com",
-            "iconFile": "images/bowling.png"
-        },
-        {
-            "name": "La Belle Beauty Salon",
-            "address": "678 Sentinel Lane, Idaho Falls ID",
-            "phoneNumber": "124-623-5135",
-            "website": "labellebeautysalon.com",
-            "iconFile": "images/salon.png"
-        },
-        {
-            "name": "North Pole Snow Shack",
-            "address": "955 E 15th Street, Idaho Falls ID",
-            "phoneNumber": "444-333-5566",
-            "website": "northpolesnowshack.com",
-            "iconFile": "images/snow-cone.png"
-        },
-        {
             "name": "Blue Lagoon",
             "address": "7810 W 45th St, Idaho Falls ID",
             "phoneNumber": "626-262-1261",
@@ -76,6 +48,34 @@
             "phoneNumber": "901-910-1091",
             "website": "ehch.com",
             "iconFile": "images/hospital.png"
+        },
+        {
+            "name": "Sanchez' Street Tacos",
+            "address": "7890 Marsh Dr, Idaho Falls ID",
+            "phoneNumber": "342-451-2677",
+            "website": "sancheztacos.com",
+            "iconFile": "images/tacos.png"
+        },
+        {
+            "name": "Lanes 300",
+            "address": "4783 E 10th St, Idaho Falls ID",
+            "phoneNumber": "235-732-5523",
+            "website": "lanes300bowling.com",
+            "iconFile": "images/bowling.png"
+        },
+        {
+            "name": "La Belle Beauty Salon",
+            "address": "678 Sentinel Lane, Idaho Falls ID",
+            "phoneNumber": "124-623-5135",
+            "website": "labellebeautysalon.com",
+            "iconFile": "images/salon.png"
+        },
+        {
+            "name": "North Pole Snow Shack",
+            "address": "955 E 15th Street, Idaho Falls ID",
+            "phoneNumber": "444-333-5566",
+            "website": "northpolesnowshack.com",
+            "iconFile": "images/snow-cone.png"
         },
         {
             "name": "Cakes By Kyla",
