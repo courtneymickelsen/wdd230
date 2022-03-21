@@ -220,7 +220,7 @@ main section h2 {
     position: absolute;
     height: 100%;
     grid-template-rows: 2fr 1fr 3fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .herodiv p {
@@ -246,6 +246,10 @@ main section h2 {
     top: 0px;
     z-index: -5;
     position: relative;
+}
+
+.weather-icon {
+    min-width: 50px;
 }
 
 .basketball {
@@ -365,7 +369,7 @@ form label input::placeholder {
 .list {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
