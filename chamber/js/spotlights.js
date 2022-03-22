@@ -9,7 +9,6 @@ fetch(requestURL)
 })
 .then(createContent);
 
-
 // spotlights.forEach(createContent(companies));
 
 function createContent(jsonObject) {
@@ -64,6 +63,5 @@ function createContent(jsonObject) {
         spotlight.appendChild(address);
         spotlight.appendChild(phone);
         spotlight.appendChild(websiteLink);
-
     }
 };
