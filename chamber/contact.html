@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/large.css">
         <script src="js/chamber.js"></script>
         <script defer src="js/time.js"></script>
+        <script defer src="js/form.js"></script>
     </head>
     <body>
         <header>
@@ -41,10 +42,29 @@
             </nav>
             <h2 id='today'>Today's date</h2>
         </header>
-        <main>
-            <section class="thank-you">
-                <h2>Thank you!</h2>
-                <p>We will review your submission and get back to you as soon as possible.</p>
+        <main class="contact-main">
+            <h2>Contact the Chamber</h2>
+            <section>
+                <h4>Office Hours:</h4>
+                <p>Monday-Friday: 9:00AM - 5:30PM<br>Saturday: 9:00AM - 12:00PM</p>
+                <h4>Phone:</h4>
+                <p>(208) 802-0828</p>
+                <h4>Email:</h4>
+                <p>easternhillschamber@gmail.com</p>
+                <h4>Address:</h4>
+                <p>1565 Monteview Lane, Idaho Falls ID</p>
+                <p><br>The office is open for walk-in visits Monday-Friday but closed for visits on Saturdays. Thank you for understanding.</p>
+            </section>
+            <section>
+                <h4>Send Us a Message:</h4>
+                <form method="get" action="thankyou.html">
+                    <label>First Name (required):<input name="fname" type="text" placeholder="John" required autofocus></label>
+                    <label>Last Name:<input name="lname" type="text" placeholder="Doe"></label>
+                    <label>Email Address (required):<input name="email" type="email" placeholder="johndoe@example.com" required></label>
+                    <label>Message:<input name="message" type="textarea" rows="4" class="business-desc" placeholder="Insert message here..." required></label>
+                    <input name="date-input" type="hidden" value="" id="date-input">
+                    <label><input class="submit" name="submit" type="submit" value="Send Message"></label>
+                </form>
             </section>
         </main>
         <footer>

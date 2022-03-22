@@ -46,23 +46,23 @@
             <h2>Chamber of Commerce Application</h2>
             <form method="get" action="thankyou.html">
                 <div>
-                <label>First Name (required):<input name="fname" type="text" placeholder="John" required autofocus></label>
-                <label>Last Name (required):<input name="lname" type="text" placeholder="Doe" required></label>
-                <label>Job Title:<input name="title" type="text" placeholder="General Manager"></label>
-                <label>Email Address (required):<input name="email" type="email" placeholder="johndoe@example.com" required></label>
-                <label>Phone Number (required):<input name="phone" type="tel" placeholder="(999)888-7777" title="Please only use numbers, dashes, and parentheses. Must be 10-13 characters long." pattern="[0-9\-\(\)]{10,13}" required></label>
-                <label>Business Name (required):<input name="business-name" type="text" placeholder="Papa's Pizza" title="Please only use letters, dashes, and white space. Must be at least 7 characters long." pattern="[a-zA-Z\-\s]{7,}" required></label>
-                <label>Business Description:<input name="business-desc" type="textarea" rows="4" class="business-desc" placeholder="Insert short description here..."></label>
-                <div class="membership-type"> 
-                    <label>Membership Type (required):</label>
-                    <label><input name="membership" type="radio" title="non-profit" required>Non-Profit</label>
-                    <label><input name="membership" type="radio" title="bronze">Bronze</label>
-                    <label><input name="membership" type="radio" title="silver">Silver</label>
-                    <label><input name="membership" type="radio" title="gold">Gold</label>
+                    <label>First Name (required):<input name="fname" type="text" placeholder="John" required autofocus></label>
+                    <label>Last Name (required):<input name="lname" type="text" placeholder="Doe" required></label>
+                    <label>Job Title:<input name="title" type="text" placeholder="General Manager"></label>
+                    <label>Email Address (required):<input name="email" type="email" placeholder="johndoe@example.com" required></label>
+                    <label>Phone Number (required):<input name="phone" type="tel" placeholder="(999)888-7777" title="Please only use numbers, dashes, and parentheses. Must be 10-13 characters long." pattern="[0-9\-\(\)]{10,13}" required></label>
+                    <label>Business Name (required):<input name="business-name" type="text" placeholder="Papa's Pizza" title="Please only use letters, dashes, and white space. Must be at least 7 characters long." pattern="[a-zA-Z\-\s]{7,}" required></label>
+                    <label>Business Description:<input name="business-desc" type="textarea" rows="4" class="business-desc" placeholder="Insert short description here..."></label>
+                    <div class="membership-type"> 
+                        <label>Membership Type (required):</label>
+                        <label><input name="membership" type="radio" title="non-profit" required>Non-Profit</label>
+                        <label><input name="membership" type="radio" title="bronze">Bronze</label>
+                        <label><input name="membership" type="radio" title="silver">Silver</label>
+                        <label><input name="membership" type="radio" title="gold">Gold</label>
+                    </div>
+                    <input name="date-input" type="hidden" value="" id="date-input">
+                    <label><input class="submit" name="submit" type="submit" value="Send Application"></label>
                 </div>
-                <input name="date-input" type="hidden" value="" id="date-input">
-                <label><input class="submit" name="submit" type="submit" value="Send Application"></label>
-            </div>
             <div class="membership-desc">
                 <h3>Membership Benefits: </h3>
                 <p>Non-Profit: $0/Month - <br>This membership includes all Silver benefits and is for Non-Profit organizations only.</p>
