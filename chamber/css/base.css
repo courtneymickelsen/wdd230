@@ -257,6 +257,10 @@ main section h2 {
     max-width: 80%; 
 }
 
+.spotlight3 {
+    display: none;
+}
+
 /* discover page */
 
 .discover-heading {
@@ -386,6 +390,15 @@ form label input::placeholder {
 
 .list section a {
     display: none;
+}
+
+/* contact page */
+
+.contact-main {
+    grid-template-columns: 1fr;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
 }
 
 /* 
