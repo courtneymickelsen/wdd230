@@ -49,7 +49,6 @@ img[data-src] {
     background-color: #F8E8A2;
     color: #10456A;
     font-size: larger;
-    /* max-height: 80px; */
 }
 
 h1 {
@@ -225,7 +224,6 @@ main section h2 {
 
 .herodiv p {
     grid-column: 1/3;
-    /* font-family: 'Noto Serif'; */
     margin: auto 10px;
     font-size: larger;
 }
@@ -281,6 +279,18 @@ form {
     margin: 10px auto;
 }
 
+form textarea {
+    color: #10456A;
+    margin-top: 5px;
+    border-radius: 0px;
+    border: 1px solid #10456A;
+}
+
+form textarea::placeholder {
+    color: #72B36C;
+    padding: 5px;
+}
+
 form label {
     display: flex;
     flex-direction: column;
@@ -290,12 +300,11 @@ form label {
 form label input {
     color: #10456A;
     border: 1px solid #10456A;
-    border-radius: none;
+    border-radius: 0px;
     margin-top: 5px;
     min-height: 45px;
     text-overflow: ellipsis;
     text-indent: 5px;
-    min-width: none;
 }
 
 form label input::placeholder {
@@ -335,6 +344,8 @@ form label input::placeholder {
 .membership-desc {
     display: none;
 }
+
+/* directory page */
 
 .directory {
     padding-bottom: 20px;

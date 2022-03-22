@@ -103,4 +103,18 @@
     .card {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .disc-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .disc-section p {
+        margin: auto;
+        max-width: 70%;
+    }
+
+    .disc-section img {
+        padding: 5px 0px 0px 5px;
+    }
 }
