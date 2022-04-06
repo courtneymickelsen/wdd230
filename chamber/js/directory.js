@@ -19,7 +19,6 @@ function displayCompanies(company) {
     let vAddress = document.createElement('p');
     let vWebPar = document.createElement('p');
     let vWebsite = document.createElement('a');
-    // let iconFile = section.createChildElement('p');
     
     vLogo.setAttribute('src', company.iconFile);
     vName.textContent = `${company.name}`;
@@ -27,7 +26,6 @@ function displayCompanies(company) {
     vAddress.textContent = `${company.address}`;
     vWebsite.setAttribute('href', `${company.website}`)
     vWebPar.textContent = `${company.website}`;
-
     
     directory.appendChild(section);
     section.appendChild(vLogo);
