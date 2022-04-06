@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@500&display=swap');
+
+body {
+    font-family: 'Lora';
+    color: #302821;
+}
+
+a {
+    color: #302821;
+}
+
+button a {
+    text-decoration: none;
+}
+
+h1, h2, h3,  h4 {
+    font-family: 'Mulish';
+    text-align: center;
+}
+
+p {
+    margin: 3%;
+}
+
+.logo {
+    padding: 15px;
+    max-width: 40%;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 1s;
+    max-width: 100%;
+}
+
+img[data-src] {
+    filter: blur(0.1em);
+}
+
+.invisible {
+    display: none;
+}
+
+/* header */
+
+.weather-alert {
+    background-color: #BED7EB;
+    color: #302821;
+    font-size: larger;
+    text-align: center;
+    margin: 0px 0px 5px;
+    width: 100%;
+}
+
+h1 {
+    /* font-size: 5.5vw; */
+    margin: auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.with-background {
+    position: absolute;
+    display: block;
+}
+
+.no-background {
+    border: 5px solid #BED7EB;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.background-img {
+    object-fit: cover;
+    max-width: 100%;
+    top: 0px;
+    z-index: -1;
+    position: relative;
+}
+
+.social img {
+    max-width: 30px;
+    margin: auto 0.5em;
+}
+
+nav {
+    background-color: #C1A385;
+    min-height: 40px;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    grid-column: 1/4;
+    padding: 0;
+    margin: auto;
+}
+
+nav ul li {
+    color: white;
+    display: none;
+    margin: auto;
+    font-size: 18px;
+}
+
+nav ul li :hover {
+    font-size: 22px;
+    margin-top: -2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-button {
+    color: #302821;
+    margin: auto 0.5em;
+    width: 100%;
+    min-height: 25px;
+    background-color: #C1A385;
+    border: none;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.nav-button :hover {
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+.responsive {
+    z-index: 1;
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.responsive li {
+    display: block;
+    min-height: 30px;
+}
+
+.responsive li a {
+    color: #302821;
+}
+
+/* #today {
+    grid-column: 1/5;
+    margin: auto;
+    font-size: 1.2em;
+    border-top: 1px solid white;
+    padding: 10px;
+    width: 50%;
+    font-size: 1em;
+} */
+
+/* footer */
+
+footer {
+    background-color: #C1A385;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.a-info {
+    background-color: #EAE0D6;
+    border-top: 1px solid white;
+    width: 100%; 
+    padding-bottom: 5px;
+    margin: 5px auto;
+}
+
+.map {
+    margin: auto;
+    padding: 10px;
+}
+
+/* main */
+
+main {
+    display: grid;
+    max-width: 100%;
+}
+
+main button {
+    background-color: #C1A385;
+    color: #302821;
+    border-radius: 1px;
+    border: none;
+    box-shadow: 2px 2px 1px #302821;
+    margin: 2% auto;
+    max-width: 250px;
+    max-height: 60px;
+    min-height: 40px;
+}
+
+/* home page */
+
+main div {
+    min-width: 100%;
+}
+
+main section {
+    background-color: #EAE0D6;
+    margin: 5px;
+    text-align: center;
+}
+
+main section h2 {
+    margin: 10px;
+}
+
+.action div {
+    margin-top: 30%;
+}
+
+.weather-icon {
+    min-width: 50px;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.forecast h3 {
+    grid-column: 1/4;
+}
+
+/* discover page */
+
+/* .discover-heading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disc-section img {
+    max-width: 100%;
+} */
+
+/* join page */
+
+form {
+    display: grid;
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+form textarea {
+    color: #302821;
+    margin-top: 5px;
+    border-radius: 0px;
+    border: 1px solid #302821;
+}
+
+form textarea::placeholder {
+    color: #C1A385;
+    padding: 5px;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5%;
+}
+
+form label input {
+    color: #302821;
+    border: 1px solid #302821;
+    border-radius: 0px;
+    margin-top: 5px;
+    min-height: 45px;
+    text-overflow: ellipsis;
+    text-indent: 5px;
+}
+
+form label input::placeholder {
+    color: #C1A385;
+}
+
+.membership-type {
+    display: grid;
+    min-width: 100%;
+    grid-template-columns: 1fr;
+}
+
+.membership-type label {
+    display: flex;
+    flex-direction: row;
+}
+
+.membership-type input {
+    min-height: 20px;
+    margin: 0px 5px;
+}
+
+.thank-you {
+    margin: 20% auto;
+}
+
+.submit {
+    grid-column: 1/3;
+    background-color: #C1A385;
+    color: #302821;
+    border-radius: 1px;
+    border: none;
+    box-shadow: 2px 2px 1px #302821;
+    min-height: 45px;
+}
+
+/* 
+dark brown #302821
+camel #C1A385
+almond #EAE0D6
+blue #BED7EB */
