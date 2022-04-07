@@ -62,7 +62,6 @@ img[data-src] {
 }
 
 h1 {
-    /* font-size: 5.5vw; */
     margin: auto;
     padding: 10px;
 }
@@ -176,7 +175,7 @@ footer {
 }
 
 .a-info {
-    background-color: #EAE0D6;
+    background-color: #BED7EB;
     border-top: 1px solid white;
     width: 100%; 
     padding-bottom: 5px;
@@ -339,6 +338,10 @@ form label input::placeholder {
     background-color: #BED7EB;
 }
 
+
+.reception {
+    background-color: #BED7EB;
+}
 /* 
 dark brown #302821
 camel #C1A385

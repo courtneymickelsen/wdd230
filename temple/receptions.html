@@ -43,7 +43,75 @@
         </header>
         <main>
             <h2>Weddings and Receptions</h2>
+            <section class="img-only">
+                <img data-src="images/hotel6.jpg">
+            </section>
             <section>
+                <h3>Reception Hall</h3>
+                <p>Cost: $1,800/day</p>
+                <p>Hours included: 11:00am - Midnight</p>
+                <h4>Amenities:</h4>
+                <ul>
+                    <li>Cleanup provided by hotel staff</li>
+                    <li>Kitchen available for use</li>
+                    <li>Tables & chairs included (two options)</li>
+                    <li>Stereo system and microphone included</li>
+                    <li>Catering options available (see below)</li>
+                    <li>Optional decorations provided at no extra cost (including tablecloth, centerpeice, and backdrop options)</li>
+                </ul>
+            </section>
+            <section class="img-only">
+                <img data-src="images/hotel5.jpg">
+            </section>
+            <section class="reception">
+                <h3>Catering</h3>
+                <p>Meal Cost: $15/person</p>
+                <p>Dessert Only Cost: $5/person</p>
+                <ul>
+                    <li>Meal Option: Includes a drink, appetizer, main dish, seasonal vegetable, and dessert.</li>
+                    <li>Desserts Only Option: Includes drinks, a variety of desserts (up to 10 types) of your choice.</li>
+                    <li>Drink options: Water, lemonade, milk, hot cocoa, and a variety of sodas.</li>
+                    <li>Dishes, napkins, and place settings provided</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Reservation Request:</h3>
+                <form method="get" action="thankyou.html">
+                    <div>
+                        <label>Date of Event:<br><input type="date" required></label>
+                        <div class="room-type"> 
+                            <label>Catering Type:</label>
+                            <label>Guest Count:</label>
+                            <label class="room"><input name="room" type="radio" title="meal">Meal</label>
+                            <select class="number">
+                                <option value="0">0</option>
+                                <option value="1">10-20</option>
+                                <option value="2">21-40</option>
+                                <option value="3">41-60</option>
+                                <option value="3">61+</option>
+                            </select>
+                            <label class="room"><input name="room" type="radio" title="dessert-only">Desserts Only</label>
+                            <select class="number">
+                                <option value="0">0</option>
+                                <option value="1">10-20</option>
+                                <option value="2">21-40</option>
+                                <option value="3">41-60</option>
+                                <option value="3">61+</option>
+                            </select>
+                            <label class="room"><input name="room" type="radio" title="none">None</label>
+                            </select>
+                        </div>
+                        <div>
+                            <h2>Personal Information</h2>
+                            <label>First Name (required):<input name="fname" type="text" placeholder="John" required></label>
+                            <label>Last Name (required):<input name="lname" type="text" placeholder="Doe" required></label>
+                            <label>Email Address (required):<input name="email" type="email" placeholder="johndoe@example.com" required></label>
+                            <label>Questions/Comments:<textarea name="business-desc" rows="4" class="business-desc" placeholder="Let us know how we can help you..."></textarea></label>
+                        </div>
+                        <input name="date-input" type="hidden" value="" id="date-input">
+                        <label><input class="submit" name="submit" type="submit" value="Request Reservation"></label>
+                </div>
+                </form>
             </section>
         </main>
         <footer>
