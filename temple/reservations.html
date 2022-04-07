@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Courtney Mickelsen's final project for WDD 230 at BYU-Idaho."
+        />
+        <title>Temple Inn & Suites</title>
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/base.css"/>
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script defer src="js/responsive.js"></script>
+        <script defer src="js/favorites.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="weather-alert invisible">
+                <p class="alert-text">Weather Alert</p>
+                <p onclick="toggleAlert()">&#10005;</p>
+            </div>
+            <section>
+                <div class="with-background">
+                    <a href="index.html"><img class='logo' src="images/placeholder.jpg" data-src='images/logo.png' alt='temple logo'></a>
+                    <h1>Temple Inn & Suites</h1>
+                </div>
+            </section>
+            <img class="background-img" src="images/placeholder.jpg" data-src="images/temple9.jpg" alt="temple">
+            <nav>
+                <button class="nav-button" onclick="toggleMenu()"><div>&#9776; Menu</div></button>
+                <ul class='menu'>
+                    <li onclick="toggleMenu()" id="close-menu"><a href='#'>&#10005;</a></li>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='reservations.html'>Reservations</a></li>
+                    <li><a href='services.html'>Services</a></li>
+                    <li><a href='temple.html'>Temples</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Reservations</h2>
+            <form method="get" action="thankyou.html">
+                <div>
+                    <h2>Stay Information</h2>
+                    <label>Location (required):<select name="Location" required>
+                        <option value="None" class="disabled" disabled selected>Select...</option>
+                        <option value="Brigham City, Utah">Brigham City, Utah</option>
+                        <option value="Laie, Hawaii">Laie, Hawaii</option>
+                        <option value="Apia, Samoa">Apia, Samoa</option>
+                        <option value="Birmingham, Alabama">Birmingham, Alabama</option>
+                        <option value="Johannesburg, South Africa">Johannesburg, South Africa</option>
+                    </select></label>
+                    <label>Dates of Stay (required):<br>Arrival-<input type="date" required>Departure-<input type="date" required></label>
+                    <div class="room-type"> 
+                        <label>Room Type:</label>
+                        <label>Count:</label>
+                        <label class="room"><input name="room" type="checkbox" title="single-queen">Single Queen Bed</label>
+                        <select class="number">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <label class="room"><input name="room" type="checkbox" title="double-queen">Double Queen Bed</label>
+                        <select class="number">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <label class="room"><input name="room" type="checkbox" title="single-king">Single King Bed</label>
+                        <select class="number">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <label class="room"><input name="room" type="checkbox" title="double-king">King Bed + Queen Bed</label>
+                        <select class="number">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h2>Personal Information</h2>
+                        <label>First Name (required):<input name="fname" type="text" placeholder="John" required></label>
+                        <label>Last Name (required):<input name="lname" type="text" placeholder="Doe" required></label>
+                        <label>Email Address (required):<input name="email" type="email" placeholder="johndoe@example.com" required></label>
+                        <label>Phone Number (required):<input name="phone" type="tel" placeholder="(999)888-7777" title="Please only use numbers, dashes, and parentheses. Must be 10-13 characters long." pattern="[0-9\-\(\)]{10,13}" required></label>
+                        <label>Special Requests/Comments:<textarea name="business-desc" rows="4" class="business-desc" placeholder="Let us know how we can help you..."></textarea></label>
+                    </div>
+                    <input name="date-input" type="hidden" value="" id="date-input">
+                    <label><input class="submit" name="submit" type="submit" value="Make Reservation"></label>
+            </div>
+            </form>
+        </main>
+        <footer>
+            <img class='logo' src="images/placeholder.jpg" data-src='images/logo.png' alt='temple logo'>
+            <div>
+                <h2>Temple Inn & Suites</h2>
+                <p>4840 Montgomery Ln #320, Bethesda, MD</p>
+                <p>templeinnandsuites@gmail.com</p>
+                <p>(801) 801-8018</p>
+            </div>
+            <div class="social">
+                <a href='https://www.linkedin.com/' target="blank"><img src='images/linkedin2.png' alt='linkedin logo'></a>
+                <a href='https://www.facebook.com/' target="blank"><img src='images/facebook2.png' alt='facebook logo'></a>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.416475251291!2d-77.09981228465861!3d38.98299027955754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c8fab2e17%3A0xbea78ca1d749fa3a!2s4840%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1649235661728!5m2!1sen!2sus" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <section class="a-info">
+                <p>&copy; <span id="currentYear"></span> •|• Courtney A. Mickelsen •|• Idaho</p>
+                <p id="lastMod"></p>
+            </section>
+        </footer>
+    </body>
+</html>
