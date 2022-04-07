@@ -9,6 +9,10 @@ a {
     color: #302821;
 }
 
+a :hover {
+    cursor: pointer;
+}
+
 button a {
     text-decoration: none;
 }
@@ -207,6 +211,7 @@ main button {
 
 main div {
     min-width: 100%;
+    margin-top: 5%;
 }
 
 main section {
@@ -238,7 +243,7 @@ main section h2 {
 
 /* temple page */
 
-/* join page */
+/* reservations page */
 
 form {
     display: grid;
@@ -319,6 +324,19 @@ form label input::placeholder {
     border: none;
     box-shadow: 2px 2px 1px #302821;
     min-height: 45px;
+}
+
+/* thank you page */
+
+.thank-you {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* services page */
+
+.amenities-list {
+    background-color: #BED7EB;
 }
 
 /* 

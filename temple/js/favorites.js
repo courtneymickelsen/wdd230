@@ -1,3 +1,11 @@
+let likeButton = document.createElement('button');
+
+likeButton.innerHTML = `☆ Add to Favorites`;
+likeButton.classList.add('like-button');
+likeButton.addEventListener('click', addFavorite(temple.name));
+
+section.appendChild(likeButton);
+
 let currentTimestamp = Date.now();
 let likeButtonList = document.querySelectorAll('.like-button');
 likeButtonList.forEach(storage());
@@ -25,7 +33,7 @@ localStorage.setItem("timestamp-ls", currentTimestamp);
 
 // likeButton.addEventListener('click', addFavorite());
 
-function addFavorite() {
-    likeButton.classList.add('liked');
-    localStorage.setItem('favorite', )
-};
+// function addFavorite() {
+//     likeButton.classList.add('liked');
+//     localStorage.setItem('favorite', )
+// };
