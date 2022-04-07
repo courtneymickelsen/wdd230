@@ -19,14 +19,26 @@ fetch(apiURL)
         document.querySelector('.weather-alert').classList.toggle('invisible');
     };
 
+    const today = document.querySelector('.today');
+    const tomorrow = document.querySelector('.tomorrow');
+    const overmorrow = document.querySelector('.overmorrow');
+    let date1 = new Date;
+    let date2 = new Date;
+    let date3 = new Date;
+    date2.setDate(date2.getDate() + 1);
+    date3.setDate(date3.getDate() + 2);
+    
+    today.textContent = date1.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
+    tomorrow.textContent = date2.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
+    overmorrow.textContent = date3.toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
+    
     const day1 = document.querySelector('.day1');
     const day2 = document.querySelector('.day2');
     const day3 = document.querySelector('.day3');
-    let day1c = Math.round(jsObject.daily[0].temp.day);
-    let day2c = Math.round(jsObject.daily[1].temp.day);
-    let day3c = Math.round(jsObject.daily[2].temp.day);
-    day1.innerHTML = `High- ${day1c}&#176;`;
-    day2.innerHTML = `High- ${day2c}&#176;`;
-    day3.innerHTML = `High- ${day3c}&#176;`;
-
+    let day1v = Math.round(jsObject.daily[0].temp.day);
+    let day2v = Math.round(jsObject.daily[1].temp.day);
+    let day3v = Math.round(jsObject.daily[2].temp.day);
+    day1.innerHTML = `High: ${day1v}&#176;`;
+    day2.innerHTML = `High: ${day2v}&#176;`;
+    day3.innerHTML = `High: ${day3v}&#176;`;
 });

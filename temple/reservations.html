@@ -15,14 +15,9 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script defer src="js/responsive.js"></script>
-        <script defer src="js/favorites.js"></script>
     </head>
     <body>
         <header>
-            <div class="weather-alert invisible">
-                <p class="alert-text">Weather Alert</p>
-                <p onclick="toggleAlert()">&#10005;</p>
-            </div>
             <section>
                 <div class="with-background">
                     <a href="index.html"><img class='logo' src="images/placeholder.jpg" data-src='images/logo.png' alt='temple logo'></a>
@@ -41,7 +36,7 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="reservations-main">
             <h2>Reservations</h2>
             <form method="get" action="thankyou.html">
                 <div>
@@ -57,7 +52,7 @@
                     <label>Dates of Stay (required):<br>Arrival-<input type="date" required>Departure-<input type="date" required></label>
                     <div class="room-type"> 
                         <label>Room Type:</label>
-                        <label>Count:</label>
+                        <label class="number">Count:</label>
                         <label class="room"><input name="room" type="checkbox" title="single-queen">Single Queen Bed</label>
                         <select class="number">
                             <option value="0">0</option>

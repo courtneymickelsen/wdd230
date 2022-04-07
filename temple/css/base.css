@@ -81,7 +81,7 @@ header {
 .no-background {
     border: 5px solid #BED7EB;
     position: relative;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .background-img {
@@ -210,7 +210,7 @@ main button {
 
 main div {
     min-width: 100%;
-    margin-top: 5%;
+    margin-top: 20px;
 }
 
 main section {
@@ -224,11 +224,7 @@ main section h2 {
 }
 
 .action div {
-    margin-top: 30%;
-}
-
-.weather-icon {
-    min-width: 50px;
+    margin-top: 10%;
 }
 
 .forecast {
@@ -240,13 +236,19 @@ main section h2 {
     grid-column: 1/4;
 }
 
+.img-only img {
+    min-height: 100%;
+    object-fit: cover;
+}
+
 /* temple page */
 
 /* reservations page */
 
 form {
     display: grid;
-    max-width: 90%;
+    width: 90%;
+    max-width: 400px;
     margin: 10px auto;
 }
 
@@ -285,7 +287,7 @@ form label input::placeholder {
     display: grid;
     min-width: 100%;
     margin: 10px 0px;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 .room-type .room {
@@ -338,8 +340,16 @@ form label input::placeholder {
     background-color: #BED7EB;
 }
 
+.more-info {
+    display: flex;
+    flex-direction: column;
+}
 
-.reception {
+.more-info button {
+    margin: 15px;
+}
+
+.blue {
     background-color: #BED7EB;
 }
 /* 

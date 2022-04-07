@@ -16,7 +16,9 @@
     
     .disc-section img {
         transition: .3s ease-in-out;
-        overflow: hidden;
+        object-fit: cover;
+        /* overflow: hidden; */
+        max-width: none;
     }
 
     .disc-section :hover img {

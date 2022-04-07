@@ -15,14 +15,9 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script defer src="js/responsive.js"></script>
-        <script defer src="js/favorites.js"></script>
     </head>
     <body>
         <header>
-            <div class="weather-alert invisible">
-                <p class="alert-text">Weather Alert</p>
-                <p onclick="toggleAlert()">&#10005;</p>
-            </div>
             <section>
                 <div class="with-background">
                     <a href="index.html"><img class='logo' src="images/placeholder.jpg" data-src='images/logo.png' alt='temple logo'></a>
@@ -42,9 +37,34 @@
             </nav>
         </header>
         <main>
-            <h2></h2>
+            <h2>Full-Time Temple Missionaries</h2>
             <section>
+                <h3>Long-Term Accomodations</h3>
+                <p>We love helping temple missionaries while they serve by providing a place to stay that's both comfortable and convenient.</p>
             </section>
+            <section class="img-only">
+                <img data-src="images/hotel1.jpg" src="" alt="">
+            </section>
+            <section class="blue">
+                <p>Our kitchenette suites are perfect for long-term stay- offering an in-suite kitchen, bath tub and separate shower, and a king-size bed. We offer these suites at discounted rates for missionaries, and we include the temple shuttle at no extra cost!</p>
+            </section>
+            <section class="img-only">
+                <img data-src="images/hotel7.jpg" src="" alt="">
+            </section>
+            <section>
+                <h3>Questions? Learn More:</h3>
+                <form method="get" action="thankyou.html">
+                    <div>
+                            <label>First Name (required):<input name="fname" type="text" placeholder="John" required></label>
+                            <label>Last Name (required):<input name="lname" type="text" placeholder="Doe" required></label>
+                            <label>Email Address (required):<input name="email" type="email" placeholder="johndoe@example.com" required></label>
+                            <label>Questions/Comments:<textarea name="business-desc" rows="4" placeholder="Let us know how we can help you..."></textarea></label>
+                        </div>
+                        <input name="date-input" type="hidden" value="" id="date-input">
+                        <label><input class="submit" name="submit" type="submit" value="Send"></label>
+                </div>
+                </form>
+            
         </main>
         <footer>
             <img class='logo' src="images/placeholder.jpg" data-src='images/logo.png' alt='temple logo'>

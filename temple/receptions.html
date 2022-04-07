@@ -15,14 +15,9 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script defer src="js/responsive.js"></script>
-        <script defer src="js/favorites.js"></script>
     </head>
     <body>
         <header>
-            <div class="weather-alert invisible">
-                <p class="alert-text">Weather Alert</p>
-                <p onclick="toggleAlert()">&#10005;</p>
-            </div>
             <section>
                 <div class="with-background">
                     <a href="index.html"><img class='logo' src="images/placeholder.jpg" data-src='images/logo.png' alt='temple logo'></a>
@@ -57,13 +52,13 @@
                     <li>Tables & chairs included (two options)</li>
                     <li>Stereo system and microphone included</li>
                     <li>Catering options available (see below)</li>
-                    <li>Optional decorations provided at no extra cost (including tablecloth, centerpeice, and backdrop options)</li>
+                    <li>Optional decorations provided (includes tablecloth, centerpeice, and backdrop options)</li>
                 </ul>
             </section>
             <section class="img-only">
                 <img data-src="images/hotel5.jpg">
             </section>
-            <section class="reception">
+            <section class="blue">
                 <h3>Catering</h3>
                 <p>Meal Cost: $15/person</p>
                 <p>Dessert Only Cost: $5/person</p>
@@ -81,7 +76,7 @@
                         <label>Date of Event:<br><input type="date" required></label>
                         <div class="room-type"> 
                             <label>Catering Type:</label>
-                            <label>Guest Count:</label>
+                            <label class="number">Guest Count:</label>
                             <label class="room"><input name="room" type="radio" title="meal">Meal</label>
                             <select class="number">
                                 <option value="0">0</option>
@@ -106,7 +101,7 @@
                             <label>First Name (required):<input name="fname" type="text" placeholder="John" required></label>
                             <label>Last Name (required):<input name="lname" type="text" placeholder="Doe" required></label>
                             <label>Email Address (required):<input name="email" type="email" placeholder="johndoe@example.com" required></label>
-                            <label>Questions/Comments:<textarea name="business-desc" rows="4" class="business-desc" placeholder="Let us know how we can help you..."></textarea></label>
+                            <label>Questions/Comments:<textarea name="business-desc" rows="4" placeholder="Let us know how we can help you..."></textarea></label>
                         </div>
                         <input name="date-input" type="hidden" value="" id="date-input">
                         <label><input class="submit" name="submit" type="submit" value="Request Reservation"></label>
