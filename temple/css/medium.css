@@ -4,6 +4,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    header {
+        max-height: 300px;
+    }
+
     .temple-div {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -30,12 +34,12 @@
     }
 
     .forecast {
-        margin: 0px 0px 0px 0px;
-        /* min-height: 100%; */
+        margin: 0px 0px 0px -5px;
+        border-left: 10px solid white;
         background-color: #BED7EB;
     }
 
-    .forecast h3 {
+    .forecast h3, .contact h2 {
         max-height: 32.59px;
         font-size: 1.5em;
         line-height: 1.15em;
@@ -58,5 +62,22 @@
         grid-row: 3;
     }
 
+    .form {
+        grid-column: 1/3;
+    }
 
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .logo-stuff {
+        grid-column: 1/3;
+    }
+
+    .a-info {
+        grid-column: 1/3;
+        margin-bottom: 0px;
+
+    }
 }

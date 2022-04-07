@@ -1,6 +1,50 @@
 @media only screen and (min-width: 900px) {
     
-    main div{
-        /* grid-template-columns: 1fr 1fr 1fr; */
+    header {
+        max-height: 350px;
+    }
+
+    nav {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0;
+        grid-row: 1;
+        grid-column: 1;
+        font-size: larger;
+    }
+
+    #close-menu {
+        display: none;
+    }
+
+    .menu li {
+        display: block;
+        margin: auto;
+    }
+
+    .logo-stuff {
+        grid-column: 1;
+    }
+
+    .logo-stuff h2 {
+        border: none;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .a-info {
+        grid-column: 1/4;
     }
 }

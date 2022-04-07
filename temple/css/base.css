@@ -33,13 +33,15 @@ p {
 
 .logo {
     padding: 15px;
-    max-width: 40%;
+    width: 40%;
+    max-width: 300px;
 }
 
 img {
     filter: blur(0em);
     transition: filter 1s;
     max-width: 100%;
+    object-fit: cover;
 }
 
 img[data-src] {
@@ -74,6 +76,7 @@ header {
 }
 
 .with-background {
+    width: 100%;
     position: absolute;
     display: block;
 }
@@ -174,17 +177,16 @@ footer {
     padding-top: 10px;
 }
 
+footer .logo {
+    max-width: 200px;
+}
+
 .a-info {
     background-color: #BED7EB;
     border-top: 1px solid white;
     width: 100%; 
     padding-bottom: 5px;
     margin: 5px auto;
-}
-
-.map {
-    margin: auto;
-    padding: 10px;
 }
 
 /* main */
@@ -206,8 +208,6 @@ main button {
     min-height: 40px;
 }
 
-/* home page */
-
 main div {
     min-width: 100%;
     margin-top: 20px;
@@ -217,14 +217,17 @@ main section {
     background-color: #EAE0D6;
     margin: 5px;
     text-align: center;
+    overflow: hidden;
 }
 
 main section h2 {
     margin: 10px;
 }
 
-.action div {
-    margin-top: 10%;
+/* home page */
+
+.action {
+    max-height: 180px;
 }
 
 .forecast {
@@ -238,6 +241,15 @@ main section h2 {
 
 .img-only img {
     min-height: 100%;
+}
+
+.contact div h2 {
+    margin-top: 35px;
+}
+
+.temple-info {
+    max-height: 300px;
+    overflow: hidden;
     object-fit: cover;
 }
 
@@ -283,31 +295,35 @@ form label input::placeholder {
     color: #C1A385;
 }
 
-.room-type {
+.type {
     display: grid;
     min-width: 100%;
     margin: 10px 0px;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
-.room-type .room {
+.type .room {
     justify-self: left;
 }
 
-.room-type .number {
+.type .number {
     width: 45px;
     justify-self: right;
     margin: 5px;
     padding: 5px;
 }
 
-.room-type label {
+.type label {
     display: flex;
     flex-direction: row;
     margin: 10px 0px;
 }
 
-.room-type input {
+.right {
+    justify-self: right;
+}
+
+.type input {
     min-height: 20px;
     margin: 0px 10px 0px 0px;
 }
