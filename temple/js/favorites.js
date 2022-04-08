@@ -5,9 +5,9 @@ function checkStorage(likeButton) {
     }
 }
 
-
 function addFavorite(likeButton) {
     localStorage.setItem(`${likeButton}`, 'favorite');
+    likeButton.innerHTML = `Remove Favorite`;
 };
 
 let likeButtonList = document.querySelectorAll('.like-button');

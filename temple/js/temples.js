@@ -12,7 +12,7 @@ fetch(requestURL)
 });
 
 function displayTemples(temple) {
-    let section = document.createElement('section');
+    let section = document.createElement('section');z
     let dImage = document.createElement('img');
     let likeButton = document.createElement('button');
     let dName = document.createElement('h2');
