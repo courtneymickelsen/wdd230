@@ -14,14 +14,18 @@ fetch(requestURL)
 function displayTemples(temple) {
     let section = document.createElement('section');
     let dImage = document.createElement('img');
+    let likeButton = document.createElement('button');
     let dName = document.createElement('h2');
     let dAddress = document.createElement('p');
     let dPhone = document.createElement('p');
     let dServices = document.createElement('p');
     let dClosureSch = document.createElement('p');
-
+    
     dImage.setAttribute('src', temple.imgFile);
     dName.innerHTML = `${temple.name}`;
+    likeButton.innerHTML = `☆ Make Favorite`;
+    likeButton.classList.add(`${temple.id}-button`);
+    likeButton.addEventListener('click', addFavorite(likeButton));
     dAddress.innerHTML = `Address:<br>${temple.address}`;
     dPhone.innerHTML = `Phone: ${temple.phoneNumber}`;
     dServices.innerHTML = `Services:<br>${temple.services}`;
@@ -30,6 +34,7 @@ function displayTemples(temple) {
     templeDiv.appendChild(section);
     section.appendChild(dImage);
     section.appendChild(dName);
+    section.appendChild(likeButton);
     section.appendChild(dAddress);
     section.appendChild(dPhone);
     section.appendChild(dServices);

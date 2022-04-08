@@ -7,7 +7,8 @@
             "services": "Clothing rental available<br>No cafeteria available<br>No patron housing available<br>Distribution center nearby",
             "history": "3 October 1915 - Announced<br>8 February 1916 - Groundbreaking<br>27 November 1919 - Dedicated<br>13 June 1978 - Rededicated<br>21 November 2010 - Rededicated",
             "imgFile": "images/laie-temple.jpg",
-            "closureSch": "2022<br>Friday, 30 September 2022 (Limited Operations)<br>Saturday, 1 October 2022<br>Thursday, 24 November 2022<br>Friday, 23 December 2022 (Limited Operations)<br>Saturday, 24 December 2022 - Monday, 26 December 2022<br>2023<br>Sunday, 1 January 2023"
+            "closureSch": "2022<br>Friday, 30 September 2022 (Limited Operations)<br>Saturday, 1 October 2022<br>Thursday, 24 November 2022<br>Friday, 23 December 2022 (Limited Operations)<br>Saturday, 24 December 2022 - Monday, 26 December 2022<br>2023<br>Sunday, 1 January 2023",
+            "id":"0"
         },
         {
             "name": "Brigham City Utah Temple",
@@ -16,7 +17,8 @@
             "services": "No clothing rental available<br>No cafeteria available<br>No patron housing available<br>Distribution center nearby",
             "history": "3 October 2009 - Announced<br>31 July 2010 - Groundbreaking<br>23 September 2012 - Dedicated",
             "imgFile": "images/brigham-city-temple.jpg",
-            "closureSch": "2022<br>Monday, 8 August 2022 - Monday, 22 August 2022<br>Friday, 9 September 2022 (Limited Operations)<br>Saturday, 10 September 2022<br>Saturday, 1 October 2022<br>Wednesday, 23 November 2022 (Limited Operations)<br>Thursday, 24 November 2022<br>Saturday, 24 December 2022<br>Saturday, 31 December 2022 (Limited Operations)"
+            "closureSch": "2022<br>Monday, 8 August 2022 - Monday, 22 August 2022<br>Friday, 9 September 2022 (Limited Operations)<br>Saturday, 10 September 2022<br>Saturday, 1 October 2022<br>Wednesday, 23 November 2022 (Limited Operations)<br>Thursday, 24 November 2022<br>Saturday, 24 December 2022<br>Saturday, 31 December 2022 (Limited Operations)",
+            "id":"1"
         },
         {
             "name": "Apia Samoa Temple",
@@ -25,7 +27,8 @@
             "services": "No clothing rental available<br>No cafeteria available<br>No patron housing available<br>Distribution center nearby",
             "history": "15 October 1977 - Announced<br>19 February 1981 - Groundbreaking<br>5 August 1983 - Dedicated<br>4 September 2005 - Rededicated",
             "imgFile": "images/apia-temple.jpg",
-            "closureSch": "2022<br>Monday, 18 July 2022 - Monday, 12 September 2022"
+            "closureSch": "2022<br>Monday, 18 July 2022 - Monday, 12 September 2022",
+            "id":"2"
         },
         {
             "name": "Birmingham Alabama Temple",
@@ -34,7 +37,8 @@
             "services": "No clothing rental available<br>No cafeteria available<br>No patron housing available<br>No distribution center nearby",
             "history": "11 September 1998 - Announced<br>9 October 1999 - Groundbreaking<br>3 September 2000 - Dedicated",
             "imgFile": "images/birmingham-temple.jpg",
-            "closureSch": "2022<br>Monday, 4 July 2022<br>Monday, 19 September 2022 - Monday, 26 September 2022<br>Saturday, 1 October 2022<br>Wednesday, 23 November 2022 - Thursday, 24 November 2022<br>Saturday, 24 December 2022<br>Saturday, 31 December 2022"
+            "closureSch": "2022<br>Monday, 4 July 2022<br>Monday, 19 September 2022 - Monday, 26 September 2022<br>Saturday, 1 October 2022<br>Wednesday, 23 November 2022 - Thursday, 24 November 2022<br>Saturday, 24 December 2022<br>Saturday, 31 December 2022",
+            "id":"3"
         },
         {
             "name": "Johannesburg South Africa Temple",
@@ -43,7 +47,8 @@
             "services": "Clothing rental available<br>No cafeteria available<br>No patron housing available<br>Distribution center nearby",
             "history": "1 April 1981 - Announced<br>27 November 1982 - Groundbreaking<br>24 August 1985 - Dedicated",
             "imgFile": "images/johannesburg-temple.jpg",
-            "closureSch": "2022<br>Saturday, 9 April 2022<br>Friday, 15 April 2022<br>Wednesday, 27 April 2022<br>Thursday, 16 June 2022<br>Tuesday, 9 August 2022<br>Monday, 15 August 2022 - Monday, 14 November 2022<br>Friday, 16 December 2022<br>Saturday, 24 December 2022<br>Saturday, 31 December 2022"
+            "closureSch": "2022<br>Saturday, 9 April 2022<br>Friday, 15 April 2022<br>Wednesday, 27 April 2022<br>Thursday, 16 June 2022<br>Tuesday, 9 August 2022<br>Monday, 15 August 2022 - Monday, 14 November 2022<br>Friday, 16 December 2022<br>Saturday, 24 December 2022<br>Saturday, 31 December 2022",
+            "id":"4"
         }
     ]
 }
