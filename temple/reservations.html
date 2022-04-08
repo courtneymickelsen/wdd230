@@ -26,7 +26,7 @@
             </section>
             <img class="background-img" src="images/placeholder.jpg" data-src="images/temple9.jpg" alt="temple">
             <nav>
-                <button class="nav-button" onclick="toggleMenu()"><div>&#9776; Menu</div></button>
+                <button class="nav-button" onclick="toggleMenu()"><span>&#9776; Menu</span></button>
                 <ul class='menu'>
                     <li onclick="toggleMenu()" id="close-menu"><a href='#'>&#10005;</a></li>
                     <li><a href='index.html'>Home</a></li>
@@ -42,14 +42,16 @@
                 <div>
                     <h2>Stay Information</h2>
                     <label>Location (required):<select name="Location" required>
-                        <option value="None" class="disabled" disabled selected>Select...</option>
+                        <option value="" class="disabled" disabled selected>Select...</option>
                         <option value="Brigham City, Utah">Brigham City, Utah</option>
                         <option value="Laie, Hawaii">Laie, Hawaii</option>
                         <option value="Apia, Samoa">Apia, Samoa</option>
                         <option value="Birmingham, Alabama">Birmingham, Alabama</option>
                         <option value="Johannesburg, South Africa">Johannesburg, South Africa</option>
                     </select></label>
-                    <label>Dates of Stay (required):<br>Arrival-<input type="date" required>Departure-<input type="date" required></label>
+                    <label>Dates of Stay (required):</label>
+                    <label>Arrival-<input type="date" required></label>
+                    <label>Departure-<input type="date" required></label>
                     <div class="type"> 
                         <label>Room Type:</label>
                         <label class="number">Count:</label>
